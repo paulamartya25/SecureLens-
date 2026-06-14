@@ -1,0 +1,169 @@
+{
+  "summary": {
+    "total_tests": 50,
+    "prediction_matches": 50,
+    "match_rate": "100.0%",
+    "mean_error": "2.24e-09",
+    "max_error": "5.19e-09",
+    "min_error": "1.37e-10",
+    "error_threshold": "1e-03",
+    "all_pass": true,
+    "ckks_params": {
+      "poly_modulus_degree": 8192,
+      "global_scale": "2^40",
+      "security_bits": 128
+    }
+  },
+  "test_results": [
+    {
+      "test_id": 1,
+      "plain_out": [
+        -0.20658299193874413,
+        0.3397528012123533
+      ],
+      "fhe_out": [
+        -0.20658298832526445,
+        0.3397528004351113
+      ],
+      "max_error": 3.6134796821407633e-09,
+      "pred_match": true,
+      "pred_plain": "Pneumonia",
+      "pred_fhe": "Pneumonia"
+    },
+    {
+      "test_id": 2,
+      "plain_out": [
+        0.4095325794664983,
+        -0.6641187367949988
+      ],
+      "fhe_out": [
+        0.40953258079960875,
+        -0.6641187361324714
+      ],
+      "max_error": 1.333110455359332e-09,
+      "pred_match": true,
+      "pred_plain": "Normal",
+      "pred_fhe": "Normal"
+    },
+    {
+      "test_id": 3,
+      "plain_out": [
+        -0.012451280956116542,
+        -0.14087904118356734
+      ],
+      "fhe_out": [
+        -0.012451281231520037,
+        -0.14087904031291784
+      ],
+      "max_error": 8.706494969423773e-10,
+      "pred_match": true,
+      "pred_plain": "Normal",
+      "pred_fhe": "Normal"
+    },
+    {
+      "test_id": 4,
+      "plain_out": [
+        0.26231656606056775,
+        0.009115446659548027
+      ],
+      "fhe_out": [
+        0.26231656664204445,
+        0.009115446756049393
+      ],
+      "max_error": 5.814767001233179e-10,
+      "pred_match": true,
+      "pred_plain": "Normal",
+      "pred_fhe": "Normal"
+    },
+    {
+      "test_id": 5,
+      "plain_out": [
+        -0.43774051960253785,
+        0.45503463307378156
+      ],
+      "fhe_out": [
+        -0.43774051814253306,
+        0.45503463069900524
+      ],
+      "max_error": 2.3747763200354655e-09,
+      "pred_match": true,
+      "pred_plain": "Pneumonia",
+      "pred_fhe": "Pneumonia"
+    },
+    {
+      "test_id": 6,
+      "plain_out": [
+        -0.4162410314366731,
+        -0.0027558220031264624
+      ],
+      "fhe_out": [
+        -0.41624103249215266,
+        -0.002755819632699026
+      ],
+      "max_error": 2.370427436369088e-09,
+      "pred_match": true,
+      "pred_plain": "Pneumonia",
+      "pred_fhe": "Pneumonia"
+    },
+    {
+      "test_id": 7,
+      "plain_out": [
+        -0.7998933913822015,
+        1.3338555426345962
+      ],
+      "fhe_out": [
+        -0.7998933924610911,
+        1.3338555433119599
+      ],
+      "max_error": 1.0788896442903706e-09,
+      "pred_match": true,
+      "pred_plain": "Pneumonia",
+      "pred_fhe": "Pneumonia"
+    },
+    {
+      "test_id": 8,
+      "plain_out": [
+        0.5873293589392785,
+        -0.732600930086325
+      ],
+      "fhe_out": [
+        0.5873293602268526,
+        -0.7326009311134464
+      ],
+      "max_error": 1.2875740473816677e-09,
+      "pred_match": true,
+      "pred_plain": "Normal",
+      "pred_fhe": "Normal"
+    },
+    {
+      "test_id": 9,
+      "plain_out": [
+        -0.20375363071110358,
+        -0.014549406106098395
+      ],
+      "fhe_out": [
+        -0.203753630291366,
+        -0.014549407903414913
+      ],
+      "max_error": 1.7973165178375439e-09,
+      "pred_match": true,
+      "pred_plain": "Pneumonia",
+      "pred_fhe": "Pneumonia"
+    },
+    {
+      "test_id": 10,
+      "plain_out": [
+        0.10456586194231784,
+        -0.24919442559990837
+      ],
+      "fhe_out": [
+        0.10456586354435203,
+        -0.24919442802302483
+      ],
+      "max_error": 2.4231164574839426e-09,
+      "pred_match": true,
+      "pred_plain": "Normal",
+      "pred_fhe": "Normal"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "model": "SecureLensNet (ResNet-18 + Linear HE Head)",
+  "dataset": "Chest X-Ray (Kaggle) \u2014 5856 images",
+  "test_acc": "89.42%",
+  "ckks_params": {
+    "scheme": "CKKS",
+    "library": "TenSEAL 0.3.14",
+    "poly_modulus_degree": 8192,
+    "coeff_mod_bit_sizes": [
+      60,
+      40,
+      40,
+      60
+    ],
+    "global_scale": "2^40",
+    "security_bits": 128
+  },
+  "ckks_operations": {
+    "encrypt_ms": 5.919,
+    "multiply_ms": 0.843,
+    "decrypt_ms": 1.407,
+    "serialize_ms": 5.171,
+    "ciphertext_kb": 326.33,
+    "plaintext_kb": 4.0,
+    "overhead_ratio": 81.6
+  },
+  "inference": {
+    "layer1_ms": 8.78,
+    "layer2_ms": 5.818,
+    "full_pipeline_ms": 19.811,
+    "plaintext_ms": 0.0332,
+    "overhead_factor": 597.4
+  },
+  "memory": {
+    "plaintext_bytes": 4096,
+    "ciphertext_bytes": 334052,
+    "context_bytes": 705565,
+    "overhead_ratio": 81.6,
+    "plaintext_kb": 4.0,
+    "ciphertext_kb": 326.22,
+    "context_kb": 689.03
+  },
+  "accuracy": {
+    "n_tests": 100,
+    "prediction_match": 92,
+    "match_rate_pct": 92.0,
+    "mean_error": 0.327,
+    "max_error": 1.07,
+    "min_error": 0.0436
+  }
+}

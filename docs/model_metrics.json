@@ -1,0 +1,14 @@
+{
+  "true_negative": 170,
+  "false_positive": 64,
+  "false_negative": 2,
+  "true_positive": 388,
+  "sensitivity": 99.49,
+  "specificity": 72.65,
+  "ppv": 85.84,
+  "npv": 98.84,
+  "accuracy": 89.42,
+  "roc_auc": 0.9716,
+  "pr_auc": 0.9748,
+  "test_accuracy": 89.42
+}

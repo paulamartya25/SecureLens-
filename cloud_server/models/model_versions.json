@@ -1,0 +1,19 @@
+{
+  "1.0.0": {
+    "version": "1.0.0",
+    "accuracy": 89.42,
+    "registered": "2026-06-09T20:25:34.067379Z",
+    "notes": "ResNet-18 transfer learning, 20 epochs, 128x128 input, CKKS 128-bit",
+    "files": [
+      "best_model.pth",
+      "feature_weights.json",
+      "linear_weights.json",
+      "first_weights.json"
+    ],
+    "ckks_params": {
+      "poly_modulus_degree": 8192,
+      "global_scale": "2^40",
+      "security_bits": 128
+    }
+  }
+}
