@@ -9,6 +9,6 @@
   "npv": 98.84,
   "accuracy": 89.42,
   "roc_auc": 0.9716,
-  "pr_auc": 0.9748,
+  "pr_auc": 0.9749,
   "test_accuracy": 89.42
 }
